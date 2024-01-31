@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title%} Registrar Activos {% endblock%} 
+
+{% block content %}
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">  Activo</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  </div>
+  
+
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">cantidad</label>
+    <select class="form-select" id="inputGroupSelect01">
+      <option selected>#...</option>
+      <option value="1">uno</option>
+      <option value="2">dos</option>
+      <option value="3">tres</option>
+      <option value="4">cuatro</option>
+      <option value="5">cinco</option>
+      <option value="6">seis</option>
+      <option value="7">siete</option>
+      <option value="8">ocho</option>
+      <option value="9">nueve</option>
+      <option value="10">diez</option>
+    </select>
+  </div>
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">  Dir MAC</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  </div>
+  
+{% endblock %}
